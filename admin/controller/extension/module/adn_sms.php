@@ -187,7 +187,7 @@ class ControllerExtensionModuleADNSms extends Controller {
             $this->db->query("UPDATE " . DB_PREFIX . "adn_sms_setting SET status = '" . $_REQUEST['send_sms_processing'] . "', message ='" . $_REQUEST['processing_msg'] . "' WHERE type = 'processing'");
             $this->db->query("UPDATE " . DB_PREFIX . "adn_sms_setting SET status = '" . $_REQUEST['send_sms_failed'] . "', message ='" . $_REQUEST['failed_msg'] . "' WHERE type = 'failed'");
             $this->db->query("UPDATE " . DB_PREFIX . "adn_sms_setting SET status = '" . $_REQUEST['send_sms_complete'] . "', message ='" . $_REQUEST['complete_msg'] . "' WHERE type = 'complete'");
-            $this->db->query("UPDATE " . DB_PREFIX . "adn_sms_setting SET status = '" . $_REQUEST['send_sms_refunded'] . "', message ='" . $_REQUEST['cancelled_msg'] . "' WHERE type = 'cancelled'");
+            $this->db->query("UPDATE " . DB_PREFIX . "adn_sms_setting SET status = '" . $_REQUEST['send_sms_cancelled'] . "', message ='" . $_REQUEST['cancelled_msg'] . "' WHERE type = 'cancelled'");
             $this->db->query("UPDATE " . DB_PREFIX . "adn_sms_setting SET status = '" . $_REQUEST['send_sms_refunded'] . "', message ='" . $_REQUEST['refunded_msg'] . "' WHERE type = 'refunded'");
 
             $this->session->data['success'] = $this->language->get('text_success');
