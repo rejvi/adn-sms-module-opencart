@@ -18,8 +18,6 @@ class ControllerExtensionModuleADNSms extends Controller {
 
         $this->document->setTitle(strip_tags($this->language->get('heading_title')));
 
-        $this->load->model('extension/module/adn_sms');
-
         $this->getList();
 
     }
