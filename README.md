@@ -8,7 +8,7 @@ This is an Intelligence Opencart Module. By Using this module customer can get n
 3. Go to modules list through the 'Extensions' menu and Choose the extension type 'Modules' from dropdown list.  
 4. Find ADNSms Intelligence in Modules list and  click 'Install ' button.
 
-#Features
+# Features
 
 Send SMS when new customer registration.  
 Send SMS when password reset.  
