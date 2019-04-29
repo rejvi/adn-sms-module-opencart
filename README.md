@@ -1,6 +1,6 @@
 #Opencart Module ADNSMS Version : 1.0.0 
-Tags:  SMS Alert,SMS Notification,SMS Plugin,ADN SMS Module,ADNsms Intelligence Module for Opencart,ADN Opencart Module
 
+This is an Intelligence Opencart Module. By Using this module customer can get notification after registration,password reset,placing order via sms using ADNsms Intelligence Opencart Module  in Opencart website.  
 # Installation Process
 
 1. Unzip and upload admin,catalog,library folder to your /(project-root-directory)  
