@@ -1,4 +1,4 @@
-#Opencart Module ADNSMS Version : 1.0.0 
+# Opencart Module ADNSMS Version : 1.0.0 
 
 This is an Intelligence Opencart Module. By Using this module customer can get notification after registration,password reset,placing order via sms using ADNsms Intelligence Opencart Module  in Opencart website.  
 # Installation Process
